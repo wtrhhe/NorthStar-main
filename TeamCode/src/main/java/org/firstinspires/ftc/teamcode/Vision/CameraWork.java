@@ -245,10 +245,6 @@ public class CameraWork extends LinearOpMode
 
             //place purple hex
             sleep(1500);
-
-            // lift claw
-
-            //turn right
             turnRobot("right", 30);     //turn right for a degree
             telemetry.addLine(" ID: 1 => Left | Turning right");
             telemetry.update();
